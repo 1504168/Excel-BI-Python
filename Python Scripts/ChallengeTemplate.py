@@ -16,7 +16,7 @@ def main():
     sheet_name = "Sheet1"
     column_name = "A:A"
     end_row = 7
-
+    df = read_excel_data(file_name, sheet_name, column_name, end_row)
     print(df)
 
 if __name__ == "__main__":
