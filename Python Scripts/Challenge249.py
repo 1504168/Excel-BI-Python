@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 
-file_name = "Mulitply Till a Single Digit.xlsx"
+file_name = "../Excel Files/Mulitply Till a Single Digit.xlsx"
 sheet_name = "Sheet1"
 column_name = "A:A"
 df = pd.read_excel(file_name, sheet_name=sheet_name, header=0, usecols=column_name)

@@ -31,7 +31,7 @@ def perform_groupby(df):
 
 
 def main():
-    file_name = "PQ_Challenge_99.xlsx"
+    file_name = "../Excel Files/PQ_Challenge_99.xlsx"
     sheet_name = "Sheet1"
     column_name = "A:B"
     end_row = 366

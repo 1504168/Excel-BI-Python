@@ -1,7 +1,7 @@
 # # Challenge Post : https://www.linkedin.com/feed/update/urn:li:activity:7091266157277515776/
 import pandas as pd
 
-file_name = "PQ_Challenge_100.xlsx"
+file_name = "../Excel Files/PQ_Challenge_100.xlsx"
 sheet_name = "Sheet1"
 column_name = "A:D"
 end_row =7

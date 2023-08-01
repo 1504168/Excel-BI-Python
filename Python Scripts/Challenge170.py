@@ -1,7 +1,7 @@
 import pandas as pd
 import sympy as primechecker
 
-file_path = "Reversed Primes.xlsx"
+file_path = "../Excel Files/Reversed Primes.xlsx"
 COL_COUNT = 1
 df = pd.read_excel(file_path, sheet_name="Sheet1")
 df = df.iloc[:, :COL_COUNT]
